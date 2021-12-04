@@ -1,3 +1,8 @@
 {
-  "name": "neovmt/test-composer"
+  "name": "neovmt/test-composer",
+  "autoload": {
+    "psr-4": {
+      "sk\\" : "src"
+    }
+  }
 }
